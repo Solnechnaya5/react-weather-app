@@ -5,35 +5,35 @@
   padding: 0;
   margin: 0;
   border: 0;
- }
- 
- *,
- *:before,
- *:after {
+}
+
+*,
+*:before,
+*:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
- }
- 
- :focus,
- :active {
+}
+
+:focus,
+:active {
   outline: none;
- }
- 
- a:focus,
- a:active {
+}
+
+a:focus,
+a:active {
   outline: none;
- }
- 
- nav,
- footer,
- header,
- aside {
+}
+
+nav,
+footer,
+header,
+aside {
   display: block;
- }
- 
- html,
- body {
+}
+
+html,
+body {
   height: 100%;
   width: 100%;
   font-size: 100%;
@@ -42,60 +42,86 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
- }
- 
- input,
- button,
- textarea {
+}
+
+input,
+button,
+textarea {
   font-family: inherit;
- }
- 
- input::-ms-clear {
+}
+
+input::-ms-clear {
   display: none;
- }
- 
- button {
+}
+
+button {
   cursor: pointer;
- }
- 
- button::-moz-focus-inner {
+}
+
+button::-moz-focus-inner {
   padding: 0;
   border: 0;
- }
- 
- a,
- a:visited {
+}
+
+a,
+a:visited {
   text-decoration: none;
- }
- 
- a:hover {
+}
+
+a:hover {
   text-decoration: none;
- }
- 
- ul li {
+}
+
+ul li {
   list-style: none;
- }
- 
- img {
+}
+
+img {
   vertical-align: top;
- }
- 
- h1,
- h2,
- h3,
- h4,
- h5,
- h6 {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: inherit;
   font-weight: 400;
- }
- 
-  /*  */
-
-html{
-    font-family: "Roboto", sans-serif;
-    color: rgb(46, 12, 78);
 }
-body{
-    background-color: rgb(243, 241, 244);
+
+/*  */
+
+html {
+  font-family: "Roboto", sans-serif;
+  color: rgb(46, 12, 78);
+}
+
+body {
+  background-color: black;
+  color: #fff;
+  ;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.33);
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255,0,255,0.52);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb:hover ::-webkit-scrollbar-track {
+  background-color: #4645458a;
 }

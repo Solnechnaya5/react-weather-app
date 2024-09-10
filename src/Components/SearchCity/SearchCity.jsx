@@ -16,16 +16,17 @@ export const SearchCity = ({ setQuery, setUnits }) => {
       handleSearchClick();
     }
   };
-
+ 
   return (
-    <div className="search-city">
-      <div className="search-city__input">
+    <div className="search-city gcse-search">
+      <div className="search-city__input ">
         <input
           type="text"
           value={city}
           placeholder="Search city..."
           onChange={(e) => setCity(e.currentTarget.value)}
           onKeyPress={handleKeyPress}
+          
         />
         <img
           onClick={handleSearchClick}
@@ -34,6 +35,8 @@ export const SearchCity = ({ setQuery, setUnits }) => {
           alt="Search Icon"
         />
       </div>
+    
     </div>
   );
 };
+

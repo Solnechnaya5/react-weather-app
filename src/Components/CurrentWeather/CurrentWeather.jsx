@@ -52,7 +52,7 @@ export const CurrentWeather = (
       value: `${temp_max.toFixed()}`,
     },
     {
-      id: 3,
+      id: 4,
       Icon: MdKeyboardArrowDown,
       title: "Min",
       value: `${temp_min.toFixed()}`,

@@ -6,15 +6,19 @@ import { DayCard } from './Components/WeathwerCard/DayCard';
 import { Provider } from 'react-redux';
 import { store } from './redux/store';
 
+
 function App() {
   return (
     <Provider store={store}>
-      <Header />
-      <main>
-        <div className="app-container">
-          <DayCard />
-        </div>
-      </main>
+      <div className='page-container'>
+        <Header />
+        <main>
+          <div className="app-container">
+            <DayCard />
+            
+          </div>
+        </main>
+      </div>
     </Provider>
   );
 }

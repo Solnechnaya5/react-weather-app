@@ -1,23 +1,63 @@
-.location{
+.location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.792);
+  border: 2px solid #ff00ff;
+    border-radius: 10px;
+    margin: 10px auto 50px;
+    padding: 10px 20px;
+}
+.location-info{
     display: flex;
     flex-direction: column;
-    margin: 10px auto 50px;
+}
+.location-city {
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.location-city{
-font-size: 36px;
-line-height: 38px;
-font-weight: bold;
-margin-bottom: 10px;
+.location-row {
+    display: flex;
 }
-.location-row{
-display: flex;
-}
+
 .location-time,
-.locatio-date{
+.locatio-date {
     font-size: 14px;
     line-height: 16px;
 }
-.location-time{
+
+.location-time {
     margin-right: 15px;
+}
+.savecity-btn{
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    border:2px solid #ff00ff;
+    -webkit-box-shadow: 2px 0px 44px 2px rgba(255,0,255,0.52);
+-moz-box-shadow: 2px 0px 44px 2px rgba(255,0,255,0.52);
+box-shadow: 2px 0px 44px 2px rgba(255,0,255,0.52);
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+    color: #fff;
+}
+@media (max-width:860px){
+    .location{
+        flex-direction: column;
+    }   
+
+.location-info{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+}
+@media (max-width:860px){
+    
 }

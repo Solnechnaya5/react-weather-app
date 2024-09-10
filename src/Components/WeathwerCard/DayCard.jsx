@@ -49,7 +49,7 @@ export const DayCard = () => {
           <ForecastWeather title="Weather forecast for 5 days" data={weather.daily} />
         </div>
       ) : (
-        <p>Loading...</p>
+        <p className='loading'>Loading...</p>
       )}
     </div>
   );

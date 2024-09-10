@@ -19,13 +19,15 @@ export const FavoriteCities = ({ onSelectCity }) => {
 
   return (
     <div className="favorite-cities">
-      <h3>Favorite Cities</h3>
-      <ul>
+      <h3>Favorite Cities</h3> 
+      <ul className="favorite-cities__list">
         {favorites.map((city, index) => (
           <li key={index}>
-            {city}
-            <button onClick={() => handleSelect(city)}>Select</button>
-            <button onClick={() => handleRemove(city)}>Remove</button>
+           <span className='favcity'> {city}</span>
+            <div className='favcity-btns'>
+              <button className='show-favcity' onClick={() => handleSelect(city)}>Select</button>
+              <button className='remove-fav-city' onClick={() => handleRemove(city)}>Remove</button>
+            </div>
           </li>
         ))}
       </ul>
