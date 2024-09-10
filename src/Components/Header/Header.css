@@ -1,0 +1,21 @@
+.app-header{
+    max-width: 1920px;
+    height: 90px;
+    padding: 20px 35px;
+    margin-bottom: 50px;
+    background-color:rgba(0, 0, 0, 0.685);
+    border-radius: 0 0 10px 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app-header h1{
+   font-size: 48px;
+   line-height: 50px;
+   font-weight: bold;
+   color:  rgba(184, 126, 242, 0.773)
+}
+.header-btns{
+    display: flex;
+}

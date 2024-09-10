@@ -1,0 +1,16 @@
+.open-btn {
+    width: 150px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.792);
+    border: none;
+    border-radius: 10px;
+
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+    color: azure;
+}
+
+.open-btn:hover {
+    background:  rgba(0, 0, 0, 0.929);
+}

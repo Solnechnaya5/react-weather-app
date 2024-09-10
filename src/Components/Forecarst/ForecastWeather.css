@@ -1,0 +1,30 @@
+.hourly-forecast{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+   }
+   .hourly-forecast__title{
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-bottom: 30px;
+   }
+   .forecast-columns{
+    display: flex;
+    justify-content: space-between;
+   }
+   .forecast-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .forecast-column__name{
+    font-size: 16px;
+line-height: 18px;
+margin-bottom: 10px;
+   }
+   .forecast-column__temperature{
+    font-size: 14px;
+line-height: 16px;
+
+   }

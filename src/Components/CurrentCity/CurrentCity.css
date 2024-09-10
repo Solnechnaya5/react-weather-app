@@ -1,0 +1,23 @@
+.location{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto 50px;
+}
+
+.location-city{
+font-size: 36px;
+line-height: 38px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.location-row{
+display: flex;
+}
+.location-time,
+.locatio-date{
+    font-size: 14px;
+    line-height: 16px;
+}
+.location-time{
+    margin-right: 15px;
+}
