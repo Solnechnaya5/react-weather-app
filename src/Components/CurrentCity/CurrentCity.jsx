@@ -18,7 +18,9 @@ export const CurrentLocationInfo = ({ weather }) => {
           <div className="location-time">{weather.formattedLocaleTime}</div>
         </div>
       </div>
-      <button className="savecity-btn" onClick={handleSaveToFavorites}>Save to Favorite</button>
+      <button className="savecity-btn" onClick={handleSaveToFavorites}>
+        Save to Favorite
+      </button>
     </div>
   );
 };

@@ -48,9 +48,9 @@ box-shadow: 2px 0px 44px 2px rgba(255,0,255,0.52);
     color: #fff;
 }
 @media (max-width:860px){
-    .location{
-        flex-direction: column;
-    }   
+    .location {
+       flex-direction: column;
+   }
 
 .location-info{
     margin-bottom: 30px;

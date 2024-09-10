@@ -1,13 +1,13 @@
-@import-normalize;
-
-.page-container{
+.page-container {
     position: relative;
 }
-.app-container{
+
+.app-container {
     max-width: 880px;
     margin: 50px auto;
-    
+
 }
-.gcse-searchresults-only{
-width: 350px;
+
+.gcse-searchresults-only {
+    width: 350px;
 }

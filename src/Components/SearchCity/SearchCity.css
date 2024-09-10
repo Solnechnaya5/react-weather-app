@@ -16,6 +16,7 @@
 .search-city__input {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: inherit;
     height: inherit;
     border: none;
@@ -23,7 +24,7 @@
 }
 
 .search-city__input input {
-    width: 200px;
+    width: 280px;
     border: none;
     padding: 0 10px;
     background-color: black;
@@ -47,7 +48,7 @@
 }
 
 .search-icon {
-    fill: rgb(47, 7, 87);
+    fill: #ff00ff;
     width: 25px;
     height: 25px;
 }
@@ -67,8 +68,9 @@
 .header-btns .search-city {
     margin-right: 15px;
 }
+
 @media (max-width:860px) {
-.search-city{
-    margin-bottom: 30px;
-}
+    .search-city {
+        margin-bottom: 30px;
+    }
 }

@@ -61,8 +61,9 @@
     border-radius: 20px;
     margin-right: 10px;
 }
+
 @media (max-width:860px) {
-    .favorite-cities{
-        top:120px
+    .favorite-cities {
+        top: 120px
     }
-    }
+}

@@ -5,13 +5,20 @@ import { FiWind } from "react-icons/fi";
 import { GiSunrise, GiSunset } from "react-icons/gi";
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 
-export const CurrentWeather = (
- { weather:{
-    details, icon, temp, feels_like, temp_min, temp_max, humidity, sunrise, sunset, speed
-  }}
-) => {
-
-
+export const CurrentWeather = ({
+  weather: {
+    details,
+    icon,
+    temp,
+    feels_like,
+    temp_min,
+    temp_max,
+    humidity,
+    sunrise,
+    sunset,
+    speed,
+  },
+}) => {
   const weatherDetailsColumn = [
     {
       id: 1,
@@ -37,7 +44,7 @@ export const CurrentWeather = (
       id: 1,
       Icon: GiSunrise,
       title: "Sunrise",
-      value:`${sunrise}`,
+      value: `${sunrise}`,
     },
     {
       id: 2,
@@ -64,17 +71,13 @@ export const CurrentWeather = (
       <div className="weathernow-top__row">
         <div className="weathernow-status">
           <div className="weathercardnow__icon">
-            <img
-              src={`${icon}`}
-              alt="weather icon"
-            />
+            <img src={`${icon}`} alt="weather icon" />
           </div>
           <p>{details}</p>
         </div>
 
         <div className="weathernow-additional__column">
           <p className="weathernow-temperature">{`${temp.toFixed()}`}</p>
-    
         </div>
         <ul className="weathernow-additional__column">
           {weatherDetailsColumn.map(({ id, Icon, title, value }) => (

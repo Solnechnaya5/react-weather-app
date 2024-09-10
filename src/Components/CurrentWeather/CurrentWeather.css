@@ -60,9 +60,11 @@
     align-items: center;
     margin-right: 15px;
 }
-.weathernow-additional__row li>span{
-margin-left: 10px;
+
+.weathernow-additional__row li>span {
+    margin-left: 10px;
 }
+
 .weathercardnow__icon img {
     height: 40px;
 }
@@ -72,7 +74,6 @@ margin-left: 10px;
     font-size: 72px;
     line-height: 74px;
     font-weight: bold;
-
 }
 
 @media(max-width:860px) {
@@ -86,7 +87,8 @@ margin-left: 10px;
     .weathernow-additional__row {
         flex-direction: column;
     }
-    .weathernow-additional__row li{
+
+    .weathernow-additional__row li {
         margin-bottom: 10px;
     }
 }
